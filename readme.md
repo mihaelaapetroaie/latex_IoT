@@ -1,0 +1,1 @@
+This is the latex document I worked on in my first days of IoT internship. It contains lists with IoT conferences, projects and essential hardware for IoT.
