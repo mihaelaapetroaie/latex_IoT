@@ -7,10 +7,16 @@
 \date{\today}
 
 \documentclass[12pt]{article}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
 
 \begin{document}
 \maketitle
 
+\section {Introduction to IoT}
+\paragraph {Definition} Internet of Things (IoT, sometimes Internet of Everything) is the network of physical objects or "things" embedded with electronics, software, sensors and connectivity to enable it to achieve greater value and service by exchanging data with the manufacturer, operator and/or other connected devices. Each thing is uniquely identifiable through its embedded computing system but is able to interoperate within the existing Internet infrastructure \cite {wiki}.
+\paragraph {IoT desired characteristics}
 
 
 \section{Internet of Things International Conferences}
@@ -86,13 +92,40 @@ The 5th International Conference on the Internet of Things (IoT 2015)
 
  \subsection {Aquarium app for visitors} It sends alerts via an app when the phone is in the range of any of the beacons they mounted. It helps kids actively learn about the species within the aquarium -  has been used for The Tennessee Aquarium, in Chattanooga \cite {norman}
 
+\subsection {Wifi Smart Pen: Sky}
+A pen that will sync what you write a paper on electronic devices i.e tablet, phone and so on - it will virtually reproduce your notebook \cite {pen}.  One downside of the system is you are required to use a proprietary Livescribe dot notebook (free with a pen purchase) in order for the full optical character recognition (OCR) of your handwriting to be read, searched and played back to you in a "pencast".
+\subsection {Home Energy Monitor: Hyko Bear} A device, in shape of a bear, that changes its colour when with the energy usage \cite {bear}. 
 
+\paragraph {How does the bear know what’s going on with the electrical system?} A wireless sensor, of course! The device comes with a small box that clamps to the main cable near a home’s energy meter. Data on the current flowing into the house is transmitted by an 868 Mhz radio, which is also used by other building infrastructure monitors such as some thermostats and fire alarms.
+\subsection {Sensor Sleep Shirts: RestDevices} A shirt that can monitor your quality of sleeping or can be used for babies. It provides parents with information around their child's skin temperature, body position, and respiration and can alert them if something unusual is detected \cite {shirt}.
+\subsection {Golf Glove Sensors: GolfSense}  Golf glove that monitors your movements during the game. They want to also include the option when you are allowed to compare your movement with others \cite {golf}.
+
+\subsection {mCookie} Hardware compatible with lego \cite {lego}
+\subsection {Wi-Fi Indoor Air Quality Sensor: Foobot}
+
+A device that that measures carbon dioxide, carbon monoxide, volatile organic compounds, particulate matter, temperature and humidity. In time it will be able to make correlations between bad habbits and air quality and help improve the air quality in homes \cite {air}.
+\begin{figure}
+\caption{User Interface for Footbot}
+\includegraphics{air}
+
+\end{figure}
 
  \section {List with harware}
 
+\begin{enumerate}
+\item\ compass
+\item\ gyroscope 
+\item\ accelerometers
+\item\ micro-controller
+
+\end{enumerate}
 \bibliographystyle{abbrv}
 \bibliography{main}
 \begin{thebibliography}{1}
+
+ \bibitem {wiki} Wikipedia {https://en.wikipedia.org/wiki/Internet_of_Things}
+
+ \bibitem {ieee} Chayan Sarkar {DIAT: A Scalable Distributed Architecture for IoT} IEEE INTERNET OF THINGS JOURNAL, VOL. 2, NO. 3, JUNE 2015.
 
   \bibitem{notes} IoT Journal {\em http://www.iotjournal.com/articles/view?13044} 2015
 
@@ -100,10 +133,14 @@ The 5th International Conference on the Internet of Things (IoT 2015)
 
   \bibitem{norman} IoT Journal {\em http://www.iotjournal.com/articles/view?12851} 
 
-  \bibitem{fo} Bob Tadashi Wakabayashi {\em Anti-Foreignism and Western
-  Learning in Early-Modern Japan} 1986: Harvard University Press.
+  \bibitem{pen} Wifi Smart Pen: Sky {\em http://postscapes.com/wifi-smart-pen-sky} 
+  \bibitem {bear} Postscapes {http://postscapes.com/home-energy-monitor-hyko-bear}
+  \bibitem {shirt} Postscapes {http://postscapes.com/sensor-sleep-shirts-restdevices}
+\bibitem {golf} postscapes {http://postscapes.com/golf-glove-sensors-golfsense}
+\bibitem {lego} Postscapes {http://postscapes.com/lego-compatible-prototyping-kit-mcookie}
+\bibitem {air} Postscapes {http://postscapes.com/wi-fi-indoor-air-quality-sensor-foobot}
 
   \end{thebibliography}
 \end{document}
-This is never printed
+
   
